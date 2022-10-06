@@ -2,6 +2,7 @@ import reactLogo from "./assets/react.svg"
 import "./App.css"
 
 import { ZustandComponent } from "./zustand/zustandComponent"
+import { XstateComponent } from "./xstate/xstateComponent"
 
 function App() {
   return (
@@ -21,7 +22,10 @@ function App() {
         </p>
       </div>
       <p className="read-the-docs">Click on the Vite and React logos to learn more</p>
-      <ZustandComponent />
+      <div className="mt-8 flex flex-wrap w-full justify-center">
+        <ZustandComponent />
+        <XstateComponent />
+      </div>
     </div>
   )
 }

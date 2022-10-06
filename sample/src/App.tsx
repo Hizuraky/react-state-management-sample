@@ -3,6 +3,7 @@ import "./App.css"
 
 import { ZustandComponent } from "./zustand/zustandComponent"
 import { XstateComponent } from "./xstate/xstateComponent"
+import { JotaiComponent } from "./jotai/jotaiComponent"
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
       <div className="mt-8 flex flex-wrap w-full justify-center">
         <ZustandComponent />
         <XstateComponent />
+        <JotaiComponent />
       </div>
     </div>
   )

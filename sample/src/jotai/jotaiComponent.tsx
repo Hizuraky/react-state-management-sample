@@ -23,7 +23,7 @@ export const JotaiComponent = () => {
           <button onClick={() => setCount(count + 1)} className="mb-2">
             increment
           </button>
-          <div className="flex items-center">
+          <div className="flex items-center mb-2">
             <p>Update number : </p>
             <input value={inputNumber} type="number" onChange={(e) => setNumber(Number(e.target.value))} className="w-20" />
             <button onClick={() => setCount(inputNumber)}>update</button>

@@ -24,7 +24,7 @@ export const XstateComponent = () => {
           <button onClick={() => send("INCREMENT_COUNT")} className="mb-2">
             increment
           </button>
-          <div className="flex items-center">
+          <div className="flex items-center mb-2">
             <p>Update number : </p>
             <input value={inputNumber} type="number" onChange={(e) => setNumber(Number(e.target.value))} className="w-20" />
             <button onClick={() => send({ type: "UPDATE_COUNT", value: inputNumber })}>update</button>

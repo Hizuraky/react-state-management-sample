@@ -10,7 +10,7 @@ export const JotaiComponent = () => {
     <div className="flex flex-col m-4 shadow-md px-10 py-4 rounded-md">
       <div className="flex items-baseline justify-start w-full">
         <h2
-          className="cursor-pointer text-3xl mr-4"
+          className="cursor-pointer text-3xl mr-4 hover:text-[#4e5ab3]"
           onClick={() => typeof window !== "undefined" && window.open("https://jotai.org/", "_blank")}
         >
           Jotai
